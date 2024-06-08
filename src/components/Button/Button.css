@@ -1,0 +1,112 @@
+.btn {
+	padding: 0.7em;
+	background: none;
+	border: 1px solid black;
+	font-size: 2rem;
+	font-weight: bold;
+	cursor: pointer;
+	background: var(--light-blue);
+}
+
+.btn:hover {
+	background: rgb(192, 223, 252);
+	transition: color 150ms, background 150ms;
+}
+
+.btn__clear:hover {
+	color: black;
+	transition: color 150ms, background 150ms;
+}
+
+.btn__0 {
+	grid-row: 5/6;
+	grid-column: 1/3;
+}
+
+.btn__1 {
+	grid-row: 4/5;
+	grid-column: 1/2;
+}
+
+.btn__2 {
+	grid-row: 4/5;
+	grid-column: 2/3;
+}
+
+.btn__3 {
+	grid-row: 4/5;
+	grid-column: 3/4;
+}
+
+.btn__4 {
+	grid-row: 3/4;
+	grid-column: 1/2;
+}
+
+.btn__5 {
+	grid-row: 3/4;
+	grid-column: 2/3;
+}
+
+.btn__6 {
+	grid-row: 3/4;
+	grid-column: 3/4;
+}
+
+.btn__7 {
+	grid-row: 2/3;
+	grid-column: 1/2;
+}
+
+.btn__8 {
+	grid-row: 2/3;
+	grid-column: 2/3;
+}
+
+.btn__9 {
+	grid-row: 2/3;
+	grid-column: 3/4;
+}
+
+.btn__comma {
+	grid-row: 5/6;
+	grid-column: 3/4;
+	background: var(--dark-blue);
+}
+
+.btn__plus {
+	grid-row: 2/4;
+	grid-column: 4/5;
+	background: var(--dark-blue);
+}
+
+.btn__minus {
+	grid-row: 1/2;
+	grid-column: 4/5;
+	background: var(--dark-blue);
+}
+
+.btn__divide {
+	grid-row: 1/2;
+	grid-column: 2/3;
+	background: var(--dark-blue);
+}
+
+.btn__multiply {
+	grid-row: 1/2;
+	grid-column: 3/4;
+	background: var(--dark-blue);
+}
+
+.btn__clear {
+	grid-row: 1/2;
+	grid-column: 1/2;
+	background: tomato;
+	color: white;
+}
+
+.btn__enter {
+	grid-row: 4/6;
+	grid-column: 4/5;
+	background: tomato;
+}

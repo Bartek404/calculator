@@ -1,0 +1,19 @@
+:root {
+	--light-blue: rgb(163, 179, 227);
+	--dark-blue: rgb(85, 112, 176);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100svh;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	background-image: linear-gradient(to bottom, #82a9c7 0%, #3d8ca8 100%);
+}
